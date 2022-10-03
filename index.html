@@ -20,31 +20,31 @@
     <header class="header">
         <div class="container header-container">
             <nav class="main-nav">
-                <a class="header-logo link" href="#">Web<span class="header-logo-text">Studio</span></a>
-                <ul class="header-list list">
-                    <li class="header-list-item">
-                        <a class="header-link link active" href="./index.html">Студія</a>
+                <a class="header-logo link" href="#">Web<span class="header-logo__text">Studio</span></a>
+                <ul class="header__list list">
+                    <li class="header__item">
+                        <a class="header__link header__link--active link" href="./index.html">Студія</a>
                     </li>
-                    <li class="header-list-item">
-                        <a class="header-link link" href="portfolio.html">Портфоліо</a>
+                    <li class="header__item">
+                        <a class="header__link link" href="portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="header-list-item">
-                        <a class="header-link link" href="">Контакти</a>
+                    <li class="header__item">
+                        <a class="header__link link" href="">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="contacts-list list">
-                <li>
-                    <a class="contacts-link link" href="mailto:info@devstudio.com">
-                        <svg class="contacts-list-icon" width="16" height="12">
+            <ul class="contacts__list list">
+                <li class="contacts__item">
+                    <a class="contacts__link link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use href="./images/icons.svg#envelope-hover"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li>
-                    <a class="contacts-link link" href="tel:+380961111111">
-                        <svg class="contacts-list-icon" width="10" height="16">
+                <li class="contacts__item">
+                    <a class="contacts__link link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -56,7 +56,7 @@
     <main>
         <section class="main section">
             <div class="container">
-                <h1 class="main-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                <h1 class="main__title">Ефективні рішення для <br> вашого бізнесу</h1>
                 <button class="button" type="button" data-modal-open>Замовити послугу </button>
             </div>
         </section>
@@ -64,48 +64,48 @@
         <section class="section">
             <div class="container">
                 <h2 class="visually-hidden">Наші переваги</h2>
-                <ul class="advantage-list list">
-                    <li class="advantage-item">
-                        <div class="advantage-icon-fon">
+                <ul class="advantage__list list">
+                    <li class="advantage__item">
+                        <div class="advantage__container">
                             <svg class="" width="70" height="70">
                                 <use href="./images/icons.svg#antenna"></use>
                             </svg>  
                         </div>
-                        <h3 class="advantage-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="advantage-text">
+                        <h3 class="advantage__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="advantage__text">
                             Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                         </p>
                     </li>
-                    <li class="advantage-item">
-                        <div class="advantage-icon-fon">
+                    <li class="advantage__item">
+                        <div class="advantage__container">
                             <svg class="" width="70" height="70">
                                 <use href="./images/icons.svg#clock"></use>
                             </svg>  
                         </div>
-                        <h3 class="advantage-title">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="advantage-text">
+                        <h3 class="advantage__title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="advantage__text">
                             Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                         </p>
                     </li>
-                    <li class="advantage-item">
-                        <div class="advantage-icon-fon">
+                    <li class="advantage__item">
+                        <div class="advantage__container">
                             <svg class="" width="70" height="70">
                                 <use href="./images/icons.svg#diagram"></use>
                             </svg>  
                         </div>
-                        <h3 class="advantage-title">ПЛАНУВАННЯ</h3>
-                        <p class="advantage-text">
+                        <h3 class="advantage__title">ПЛАНУВАННЯ</h3>
+                        <p class="advantage__text">
                             Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="advantage-item">
-                        <div class="advantage-icon-fon">
+                    <li class="advantage__item">
+                        <div class="advantage__container">
                             <svg class="" width="70" height="70">
                                 <use href="./images/icons.svg#astronaut"></use>
                             </svg>  
                         </div>
-                        <h3 class="advantage-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="advantage-text">
+                        <h3 class="advantage__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="advantage__text">
                             Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                         </p>
                     </li>
@@ -114,26 +114,26 @@
         </section>
     
         <!-- Gallery -->
-        <section class=" section section-gallery">
+        <section class="section section-gallery">
             <div class="container">
-                <h2 class="gallery-title">Чим ми займаємося</h2>
-                <ul class="gallery-list list">
-                    <li class="gallery-item">
-                        <div class="gallery-tumb">
+                <h2 class="gallery__title">Чим ми займаємося</h2>
+                <ul class="gallery__list list">
+                    <li class="gallery__item">
+                        <div class="gallery__tumb">
                             <img src="./images/img-1.jpg" alt="робочий процес за комп'ютером" width="370" height="294"/>
-                            <h3 class="gallery-tumb-title">Десктопні додатки</h3>
+                            <h3 class="gallery-tumb__title">Десктопні додатки</h3>
                         </div>
                     </li>
-                    <li class="gallery-item">
-                        <div class="gallery-tumb">
+                    <li class="gallery__item">
+                        <div class="gallery__tumb">
                             <img src="./images/img-2.jpg" alt="робочий процес з телефону" width="370" height="294"/>
-                            <h3 class="gallery-tumb-title">Мобільні додатки</h3>
+                            <h3 class="gallery-tumb__title">Мобільні додатки</h3>
                         </div>
                     </li>
-                    <li class="gallery-item">
-                        <div class="gallery-tumb">
+                    <li class="gallery__item">
+                        <div class="gallery__tumb">
                             <img src="./images/img-3.jpg" alt="робочий процес за планшетом" width="370" height="294"/>
-                            <h3 class="gallery-tumb-title">Дизайнерські рішення</h3>
+                            <h3 class="gallery-tumb__title">Дизайнерські рішення</h3>
                         </div>
                     </li>   
                 </ul>
