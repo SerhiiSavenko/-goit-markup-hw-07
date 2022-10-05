@@ -30,6 +30,11 @@
     border-radius: 4px;
     padding: 40px;
 }
+
+.modal-icon {
+    fill: #000000;
+    transition: fill var(--transition-time) var(--transition-cubic);
+}
 .modal-btn {
     position: absolute;
     top: 8px;
@@ -45,6 +50,9 @@
     cursor: pointer;
     background: var(--light-txt-cl);
 
+    &:hover .modal-icon {
+        fill: var(--basic-blue);
+    }
 }
 
 /* Register form */
@@ -92,24 +100,28 @@
     outline: transparent;
 
     transition: border-color var(--transition-time) var(--transition-cubic);
+
+    &:focus {
+        border-color: var(--basic-blue);
+    }
+
+    &:focus + .register-form-icon {
+        fill: var(--basic-blue);
+    }
 }
-.register-form-imput:focus {
-    border-color: var(--basic-blue);
-}
+
 
 .register-form-icon {
     position: absolute;
     bottom: 11px;
     left: 12px;
-    /* top: 50%;
-    left: 10px; */
-    /* transform: translateY(-50%); */
+  
     transition: fill var(--transition-time) var(--transition-cubic);
 }
 
-.register-form-imput:focus + .register-form-icon {
-    fill: var(--basic-blue);
-}
+// .register-form-imput:focus + .register-form-icon {
+//     fill: var(--basic-blue);
+// }
 .register-form-message {
     display: block;
     width: 100%;
@@ -124,10 +136,12 @@
     outline: transparent;
     resize: none;
     transition: border-color var(--transition-time) var(--transition-cubic);
+
+    &:focus {
+        border-color: var(--basic-blue);  
+    }
 }
-.register-form-message:focus {
-    border-color: var(--basic-blue);
-}
+
 .register-form-agreement {
     display: flex;
     align-items: center;
@@ -139,6 +153,8 @@
 .icon-checked {
   opacity: 0;
   transition: opacity var(--transition-time) var(--transition-cubic);
+
+  
 }
 
 .register-form-chekbox:checked + .checkbox-icon .icon-checked {
@@ -159,6 +175,13 @@
     width: 200px;
     height: 50px;
     margin: 0 auto;
+    
+    transition: background-color var(--transition-time) var(--transition-cubic);
+
+    &:focus,
+    &:hover {
+        background-color:  #188CE8;
+    }
 }
 .register-form-desc {
     font-size: 14px;
