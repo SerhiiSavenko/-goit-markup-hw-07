@@ -3,7 +3,7 @@ header{
     border-bottom: 1px solid #ececec;
     
 }
-.header-container,
+.header__container,
 .main-nav {
   display: flex; 
   align-items: center; 
@@ -20,7 +20,7 @@ header{
     gap: 50px;
 }
 
-.contacts__list {
+.contacts {
     display: flex;
     align-items: center;
     gap: 30px;

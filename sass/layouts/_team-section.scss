@@ -1,4 +1,7 @@
-.team__list {
+.section--background {
+    background-color: #F5F4FA;
+}
+.team {
     display: flex;
     gap: 30px;
 }
@@ -28,12 +31,12 @@
     margin-bottom: 16px;
 }
 
-.team-social__list {
+.social {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.team-list__link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +54,6 @@
     }
 }
 
-.social-icon {
+.social__icon {
     fill: currentColor;
 }

@@ -1,17 +1,15 @@
-.section-gallery{
+.section--nonpadding-top{
     padding-top: 0;
 }
-.gallery__list {
+.gallery {
     display: flex;
     gap: 30px;
 }
-.section-team {
-    background-color: #F5F4FA;
-}
+
 .gallery__tumb {
     position: relative;
 }
-.gallery-tumb__title {
+.gallery__title {
     position: absolute;
     bottom: 0;
     left: 0;

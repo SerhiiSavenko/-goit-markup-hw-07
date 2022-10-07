@@ -101,7 +101,7 @@ ul {
     gap: 50px;
 }
 
-.contacts__list {
+.contacts {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -274,7 +274,7 @@ color: var(--basic-blue);
 .gallery__tumb {
     position: relative;
 }
-.gallery-tumb__title {
+.gallery__title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -296,7 +296,7 @@ color: var(--basic-blue);
 
 /* Team */
 
-/* .team__list {
+/* .team {
     display: flex;
     gap: 30px;
 }
@@ -326,12 +326,12 @@ color: var(--basic-blue);
     margin-bottom: 16px;
 }
 
-.team-social__list {
+.social {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.team-list__link {
+.social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -342,18 +342,18 @@ color: var(--basic-blue);
     cursor: pointer;
     transition: background-color var(--transition-time) var(--transition-cubic), color var(--transition-time) var(--transition-cubic);
 }
-.team-list__link:hover,
-.team-list__link:focus {
+.social__link:hover,
+.social__link:focus {
     color: var(--light-txt-cl);
     background-color: var(--basic-blue);
 }
-.social-icon {
+.social__icon {
     fill: currentColor;
 } */
 
 /* regular customers */
 
-/* .customers__list {
+/* .customers {
     display: flex;
     justify-content: center;
     gap: 30px;
